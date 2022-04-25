@@ -6,7 +6,7 @@ metadata:
     app: ecsdemo-nodejs
   namespace: default
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-nodejs
@@ -48,7 +48,7 @@ metadata:
     app: ecsdemo-crystal
   namespace: default
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-crystal
@@ -90,7 +90,7 @@ metadata:
     app: ecsdemo-frontend
   namespace: default
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-frontend
